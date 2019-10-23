@@ -1,5 +1,6 @@
-FROM java:7-alpine
-MAINTAINER Manuel (https://github.com/TeNNoX/)
+FROM openjdk:8-alpine
+
+LABEL maintainer "Archomeda (https://github.com/Archomeda/spigot-buildtools-docker)"
 
 ENV REVISION "latest"
 
